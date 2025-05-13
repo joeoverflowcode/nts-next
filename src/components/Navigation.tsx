@@ -13,11 +13,7 @@ import {
   PopoverPanel,
 } from '@headlessui/react'
 import {
-  ArrowPathIcon,
   Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
   SquaresPlusIcon,
   XMarkIcon,
   CursorArrowRippleIcon,
