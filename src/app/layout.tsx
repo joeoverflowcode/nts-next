@@ -3,6 +3,7 @@ import { GoogleAnalytics } from '@next/third-parties/google';
 import { Source_Sans_3, Manrope } from "next/font/google";
 
 import Header from "@/components/Header";
+import Navigation from "@/components/Navigation"
 import Footer from "@/components/Footer";
 import { siteDetails } from '@/data/siteDetails';
 
@@ -47,7 +48,8 @@ export default function RootLayout({
         className={`${manrope.className} ${sourceSans.className} antialiased`}
       >
         {siteDetails.googleAnalyticsId && <GoogleAnalytics gaId={siteDetails.googleAnalyticsId} />}
-        <Header />
+        {/* <Header /> */}
+        <Navigation />
         <main>
           {children}
         </main>

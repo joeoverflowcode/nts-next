@@ -1,9 +1,9 @@
 export const siteDetails = {
-    siteName: 'Finwise',
+    siteName: 'North Texas Web Consulting',
     siteUrl: 'https://finwise-omega.vercel.app/',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'NTS Solutions0 - Empowering Your Busines with Technology',
+        description: 'NTS Solutions empowers North Texas businesses with cutting-edge technology solutions to drive success.',
     },
     language: 'en-us',
     locale: 'en-US',
