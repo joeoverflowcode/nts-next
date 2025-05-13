@@ -22,7 +22,7 @@ const NewHero = () => {
               transition={{ duration: 1, delay: 0.4, ease: 'easeOut' }}
               className="relative text-white italic"
             >
-              Texas, we're here to help!
+              Texas, were here to help!
             </motion.span>
             <motion.svg
               initial={{ strokeDasharray: 200, strokeDashoffset: 200 }}
